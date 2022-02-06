@@ -330,7 +330,7 @@ image::ACID.png[ACID,width=800,align=center]
 ifndef::env-slides[]
 Transactionality is very important for robust applications that require an ACID (atomicity, consistency, isolation, and durability) guarantee for their data.
 If a relationship between nodes is created, not only is the relationship created, but the nodes are updated as connected. 
-These updates to the database must [.underline]#all# succeed, otherwise the entire transacton fails and the updates are rolled back.
+These updates to the database must [.underline]#all# succeed, otherwise the entire transaction fails and the updates are rolled back.
 endif::[]
 
 ifdef::env-slides[]
